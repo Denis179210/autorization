@@ -1,0 +1,8 @@
+data/
+node_modules/
+static/
+.cache/
+.*
+*.marko.js
+*.dust.js
+*.coffee.js

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../../../favicon.ico">
+
+    <title>Signin Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <base href="/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body ng-app="tokenApp" class="d-flex justify-content-center align-items-center h-100vh">
+	  <h1 class="notice">Positive result :-)</h1>
+	  
+			<div ng-include="'navBar/navBar.html'"
+				   ng-controller="navBarController"
+				   class="bg-dark navbar w-100 d-flex justify-content-end"></div>
+
+			<ui-view class="w-auto general">
+     		</ui-view>
+	
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+      <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
+	  <script src="common.js" class="entry-point"></script>
+	  <script src="navBar/navBarController.js"></script>
+      <script src="autorization/autorizationController.js"></script>
+      <script src="signIn/signInController.js"></script>
+      <script src="signUp/signUpController.js"></script>
+      <script src="signIn/signInComponent.js"></script>
+      <script src="signUp/signUpComponent.js"></script>
+      <script src="test/testController.js"></script>
+      <script src="test/testComponent.js"></script>
+      <script src="main/mainController.js"></script>
+      <script src="stateConfig.js"></script>
+  </body>
+</html>

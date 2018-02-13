@@ -1,0 +1,46 @@
+.w-50vw {
+    width: 50vw
+}
+.w-205px {
+    max-width: 205px
+}
+.h-100vh {
+    height: 100vh
+}
+.h-75vh {
+    height: 75vh
+}
+.h-50vh {
+    height: 50vh
+}
+.h-25vh {
+    height: 25vh
+}
+
+/* .exit {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+
+} */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0
+}
+
+@keyframes notice{
+    0%{
+      opacity: 1;
+    }
+    100%{
+      opacity: 0;
+    }
+}
+.notice {
+display: none;
+position: fixed;
+top: 100px;
+animation: notice 2s linear forwards
+}

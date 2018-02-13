@@ -1,0 +1,20 @@
+<form name="sign_up" class="w-205px text-center">
+    <h3>Please enter your data</h3>
+    <label><input class="form-control"
+                    type="email"
+                    placeholder="Email"
+                    ng-model="newUser.email"
+                    ng-required="true"
+                    autofocus></label>
+    
+    <label><input class="form-control"
+                    type="Password"
+                    placeholder="Password"
+                    ng-model="newUser.password"
+                    ng-required="true"></label>
+    <label><input type="checkbox"
+                    ng-model="newUser.remember_me"> Remember me</label>
+
+        <button type="button" class="btn btn-success" ng-click="sendData($event)">Sing Up</button>
+    
+</form>

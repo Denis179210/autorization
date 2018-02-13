@@ -1,0 +1,10 @@
+<div class="bg-dark">
+    <div class="btn-group" ng-if="!access()">
+        <a ui-sref="autorization.sign_in" class="btn btn-success">Sign In</a>
+        <a ui-sref="autorization.sign_up" class="btn btn-primary">Sign Up</a>
+    </div>
+    <div ng-if="access()">
+        <button type="button" class="btn btn-info" ng-click="exit($event)">Log out</button>
+    </div>
+    
+</div>
